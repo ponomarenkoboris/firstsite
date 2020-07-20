@@ -301,7 +301,7 @@ header {
 	width: 100%;
 	text-align: left;
 }
-.meat-our-team{
+#meat-our-team{
 	padding-bottom: 34px;
 }
 .team-text{
@@ -527,8 +527,6 @@ footer{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	position: fixed;
-	bottom: 0px;
 }
 .footer-img{
 	margin-right: 18px; 
