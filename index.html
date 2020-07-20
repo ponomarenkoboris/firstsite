@@ -11,10 +11,10 @@
 	<div class="header-out-wrapper">
 		<header>
 			<div class="site-menu">
-				<a href="">Home</a>
-				<a href="">Portfolio</a>
-				<a href="">About Us</a>
-				<a href="">Contact</a>
+				<a href="#">Home</a>
+				<a href="#meat-our-team">Portfolio</a>      <!--Якорная ссылка имеет слеующий вид-->
+				<a href="#service-heading">About Us</a>     <!--<a href="#id_элемента">...</a> создаём ссылку-->
+				<a href="#get-in-touch">Contact</a>         <!--<...id="id_элемента"...> - создаём якорь только через id-->
 			</div>
 		</header>
 	</div>
@@ -31,7 +31,7 @@
 		</div>
     <div class="services">
         <div class="service-lead-wrapper">
-        <h2 class="service-heading">Do you know we can<br> provide you?</h2>
+        <h2 id="service-heading">Do you know we can<br> provide you?</h2>
         <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officiis ipsum, culpa necessitatibus quisquam
              unde perspiciatis aliquid cum laboriosam mollitia soluta praesentium delectus omnis officia alias. 
              Consectetur expedita saepe laudantium.</p>
@@ -82,7 +82,7 @@
     </div>
     <div class="team">
         <div class="team-header">
-            <h2 class="meat-our-team">Meet our team</h2>
+            <h2 id="meat-our-team">Meet our team</h2>
             <p class="team-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo et molestias eveniet.</p>
             <hr class="header-line">
         </div>
@@ -132,7 +132,7 @@
         </div> 
     <div class="feedback-contact-info">
         <div class="feedback">
-            <h2>Get in touch</h2>
+            <h2 id="get-in-touch">Get in touch</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis.</p>
             <hr>
             <!--<div class="feedback-form">
