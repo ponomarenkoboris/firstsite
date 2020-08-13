@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Organisation</title>
 </head>
@@ -11,10 +11,10 @@
 	<div class="header-out-wrapper">
 		<header>
 			<div class="site-menu">
-				<a href="#">Home</a>
-				<a href="#meat-our-team">Portfolio</a>      <!--Якорная ссылка имеет слеующий вид-->
-				<a href="#service-heading">About Us</a>     <!--<a href="#id_элемента">...</a> создаём ссылку-->
-				<a href="#get-in-touch">Contact</a>         <!--<...id="id_элемента"...> - создаём якорь только через id-->
+                <a href="#">Home</a>
+                <a href="#service-heading">About Us</a>
+				<a href="#meat-our-team">Portfolio</a>
+				<a href="#get-in-touch">Contact</a>
 			</div>
 		</header>
 	</div>
@@ -143,10 +143,12 @@
             </div>-->
             <div class="feedback-form">
                 <form class="feedback-form-style" action="" method="GET">
-                    <input class="input-name" type="text" name="name" placeholder="Name">
-                    <input class="input-mail" type="text" name="mail" placeholder="Your Mail">
+                    <div class="name-and-email">
+                        <input class="input-name" type="text" name="name" placeholder="Name">
+                        <input class="input-mail" type="text" name="mail" placeholder="Your Mail">
+                    </div>
                     <input class="input-message" type="text" name="messege" placeholder="Type your messege">
-                    <button class="send-message-button" type="submit">Send Message</button>
+                    <button class="send-message-button">Send Message</button>
                 </form>
             </div>
         </div>       
@@ -180,6 +182,6 @@
             </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>
